@@ -119,25 +119,6 @@ Navigate to Assets/Scenes/ and open the main scene to run the prototype in the E
 
 📂 Project Architecture
 
-Project-Kunai/
-├── Assets/                        <-- Game assets and Main arm rig
-│   ├── Animators/                 <-- Animators
-│   ├── image_textures/            <-- Image textures
-│   ├── knife_model/               <-- Kunai FBX models and textures
-│   ├── Materials/                 <-- Standard and shader materials
-│   ├── muzzle flash/              <-- Assets used in the making of the muzzle flash fx
-│   ├── prefabs/                   <-- Prefabs
-│   │   └── enemies/               <-- Enemy prefabs
-│   ├── Scenes/                    <-- Gameplay and testing scenes
-│   └── Scripts/                   <-- Source code hierarchy
-│       ├── enemy/                 <-- Enemy AI and logic
-│       ├── Player/                <-- Player movement and combat controllers
-│       └── player-related/        <-- Auxiliary player mechanics (e.g., Kunai logic)
-├── Packages/                      <-- Project dependencies
-├── ProjectSettings/               <-- Unity configuration files
-└── README.md
-
-
 📝 Design & Technical Notes
 
 Known Issues

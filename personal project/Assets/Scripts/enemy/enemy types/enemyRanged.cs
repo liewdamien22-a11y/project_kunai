@@ -7,7 +7,7 @@ public class enemyRanged : enemyBase
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private Transform headTransform; //assign the child head object here
-    [SerializeField] private float preferredDistance = 8.0f; //target distance to maintain
+    [SerializeField] private float preferredDistance = 670f; //target distance to maintain
     [SerializeField] private float distanceTolerance = 1.5f;   //margin buffer
     [SerializeField] private float fireRate = 2.0f;            //interval between shots
 

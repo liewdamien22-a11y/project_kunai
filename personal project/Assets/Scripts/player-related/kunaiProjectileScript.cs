@@ -7,7 +7,7 @@ public class kunaiProjectileScript : MonoBehaviour
 {
     [SerializeField]private Rigidbody rb;
     public bool isStuck = false;
-    public float speed = 67f;
+    public float speed = 670f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
